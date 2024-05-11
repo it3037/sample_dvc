@@ -23,8 +23,8 @@ estimators:
       l1_ratio: 0.4
 model_dir: saved_models
 
-# reports:
-#   params: report/params.json
-#   scores: report/scores.json
+reports:
+  params: report/params.json
+  scores: report/scores.json
 
-# webapp_model_dir: prediction_service/model/model.joblib
+webapp_model_dir: prediction_service/model/model.joblib
